@@ -8,12 +8,12 @@ description: >-
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - Containers
-  - Networking
-  - Kubernetes
   - CNI
-  - Overlay Network
+  - Containers
+  - Kubernetes
+  - Networking
   - Open Source
+  - Overlay Network
 url: >-
   https://raw.githubusercontent.com/api-evangelist/flannel/refs/heads/main/apis.yml
 created: '2026-03-26'
@@ -28,10 +28,10 @@ apis:
       provides a layer 3 IPv4 network between multiple nodes in a cluster.
     humanURL: https://github.com/flannel-io/flannel
     tags:
-      - Containers
-      - Networking
-      - Kubernetes
       - CNI
+      - Containers
+      - Kubernetes
+      - Networking
       - Overlay Network
     properties:
       - type: Documentation
