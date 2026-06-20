@@ -8,7 +8,7 @@ description: >-
   HTTP/REST API; it stores network configuration in either the Kubernetes API
   or etcd directly and is managed via configuration files, kubectl, and Helm.
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - CNI
   - Cloud Native
