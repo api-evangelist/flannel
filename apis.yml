@@ -23,6 +23,14 @@ accessModel:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/flannel.png
 tags:
   - CNI
+  - Cloud-Native
+  - Containers
+  - Kubernetes
+  - Networking
+  - Open-Source
+  - Overlay Network
+tags_raw:
+  - CNI
   - Cloud Native
   - Containers
   - Kubernetes
