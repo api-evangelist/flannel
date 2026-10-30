@@ -1,4 +1,4 @@
-# Flannel (flannel)
+# Flannel
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,50 +66,96 @@
 
 Flannel is a simple overlay network that satisfies the Kubernetes networking requirements. It runs a small single binary agent called flanneld on each host and is responsible for allocating a subnet lease to each host out of a larger preconfigured address space. Flannel does not expose its own HTTP/REST API; it stores network configuration in either the Kubernetes API or etcd directly and is managed via configuration files, kubectl, and Helm.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/flannel/refs/heads/main/apis.yml)
+**Areas:** CNI · Cloud-Native · Containers · Kubernetes · Networking · Open Source · Overlay Network
 
-## Scope
+## Flannel on APIs.io
 
-- **Type:** Index
-- **Position:** Consumer
-- **Access:** 3rd-Party
+Everything profiled for Flannel is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/flannel/](https://apis.io/providers/flannel/)** — or go straight to one of the APIs or properties below.
 
-## Tags:
+### APIs (1)
 
- - CNI, Cloud Native, Containers, Kubernetes, Networking, Open Source, Overlay Network
+- [Flannel](https://apis.io/apis/flannel/flannel/) — Flannel is a simple overlay network that satisfies the Kubernetes networking requirements. It allocates subnet leases to each host and provides a layer 3…
 
-## Timestamps
+### Published properties
 
-- **Created:** 2026-03-26
-- **Modified:** 2026-04-28
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### Plans and pricing (1)
 
-### Flannel
-Flannel is a simple overlay network that satisfies the Kubernetes networking requirements. It allocates subnet leases to each host and provides a layer 3 IPv4 network between multiple nodes in a cluster. It is configured via the Kubernetes API or etcd and exposes no REST API of its own.
+Published plans, tiers and prices.
 
-**Human URL:** [https://github.com/flannel-io/flannel](https://github.com/flannel-io/flannel)
+- [Flannel Plans Pricing](https://apis.io/plans/flannel/flannel-plans-pricing/)
 
-#### Tags:
+#### Rate limits (1)
 
- - CNI, Containers, Kubernetes, Networking, Overlay Network
+Published request limits.
 
-#### Properties
+- [Flannel Rate Limits](https://apis.io/rate-limits/flannel/flannel-rate-limits/)
 
-- [Documentation](https://github.com/flannel-io/flannel/blob/master/Documentation/kubernetes.md)
-- [Getting Started](https://github.com/flannel-io/flannel/blob/master/Documentation/running.md)
-- [Configuration](https://github.com/flannel-io/flannel/blob/master/Documentation/configuration.md)
+#### FinOps (1)
 
-## Common Properties
+What the API costs to run, by operation.
+
+- [Flannel Finops](https://apis.io/finops/flannel/flannel-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://github.com/flannel-io/flannel)
 - [Documentation](https://github.com/flannel-io/flannel/blob/master/Documentation/kubernetes.md)
-- [Getting Started](https://github.com/flannel-io/flannel/blob/master/Documentation/running.md)
-- [GitHub Organization](https://github.com/flannel-io)
-- [Helm Chart](https://flannel-io.github.io/flannel/)
+- [Getting started](https://github.com/flannel-io/flannel/blob/master/Documentation/running.md)
+- [GitHub](https://github.com/flannel-io)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
+**Kin Score 10.7** — minimal · rubric 0.24.0 · scored 2026-10-17
 
-**Email:** kin@apievangelist.com
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 21.4 |
+| Access clarity | 7.9 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 0.0** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/flannel/](https://apis.io/providers/flannel/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Flannel: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/flannel/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
